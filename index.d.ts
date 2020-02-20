@@ -1,6 +1,6 @@
 export = nodeIptc;
 
-declare function nodeIptc(buffer: Buffer, options?: nodeIptc.Options): nodeIptc.IptcData | 'false';
+declare function nodeIptc(buffer: Buffer, options?: nodeIptc.Options): nodeIptc.IptcData | undefined;
 
 declare namespace nodeIptc {
     interface IptcData {

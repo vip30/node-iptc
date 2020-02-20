@@ -10,12 +10,12 @@ For more information, see: http://www.adobe.com/devnet-apps/photoshop/fileformat
 
 Installing using npm:
 
-    npm install node-iptc
+    npm install @vip30/node-iptc
     
 ## Example
 
 ```javascript
-  var iptc = require('node-iptc')
+  var iptc = require('@vip30/node-iptc')
   
   fs.readFile("myImage.jpeg", function(err, data) {
       if (err) { throw err }
@@ -25,7 +25,7 @@ Installing using npm:
 
 ### For different encoding
 ```javascript
-  var iptc = require('node-iptc')
+  var iptc = require('@vip30/node-iptc')
   
   fs.readFile("myImage.jpeg", function(err, data) {
       if (err) { throw err }
