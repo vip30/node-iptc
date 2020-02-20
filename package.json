@@ -2,7 +2,7 @@
   "name": "@vip30/node-iptc",
   "author": "Derek Baron",
   "description": "A node.js library to extract IPTC data from image headers",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "./lib/iptc.js",
   "scripts": {
     "test": "mocha"
