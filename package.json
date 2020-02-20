@@ -1,5 +1,5 @@
 {
-  "name": "node-iptc",
+  "name": "@vip30/node-iptc",
   "author": "Derek Baron",
   "description": "A node.js library to extract IPTC data from image headers",
   "version": "1.0.5",
@@ -9,10 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/derekbaron/node-iptc.git"
+    "url": "https://github.com/vip30/node-iptc.git"
   },
-  "dependencies": {},
+  "dependencies": {
+    "iconv-lite": "^0.5.1"
+  },
   "devDependencies": {
+    "@types/node": "^13.7.4",
     "mocha": "latest"
-  }
+  },
+  "types": "index.d.ts"
 }
